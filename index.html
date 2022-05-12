@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+
+    <title>Medidinha Certa - IMC Ideal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>
+                Medidinha Certa - IMC Ideal para você
+                
+            </h1>
+        </div>
+        
+    </header>
+            
+    <div class="container">
+        <h3>Escolha o gênero:</h3>
+        <div class="sexo">
+            <input id="homem" name="gender" type="radio" />
+            <label for="gender">Homem</label>
+            <br>
+            <input id="mulher" name="gender" type="radio" />
+            <label for="gender">Mulher</label>
+        </div>
+        <input id="altura" type="text" placeholder="Informe sua altura 0.00"/>
+        <button  onclick="calculaPeso()">CALCULAR PESO IDEAL</button>
+
+        <div id="peso"></div>
+
+    </div>
+
+    <footer>
+       
+        <h3>Desenvolvido por Rafael Americo</h3>
+
+      </footer>
+    <script src="peso.js"></script>
+</body>
+</html>
