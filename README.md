@@ -1,0 +1,2 @@
+# medidinhacerta
+Aplicativo Android
